@@ -7,6 +7,8 @@ import 'app/app.locator.dart';
 import 'app/app.router.dart';
 import 'services/theme_setup.dart';
 
+
+
 Future main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await ThemeManager.initialise();
